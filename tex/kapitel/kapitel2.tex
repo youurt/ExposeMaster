@@ -3,24 +3,24 @@
 Das Aufkommen von Online-Nachrichtenagenturen und die Explosion der Anzahl der Benutzer, die Nachrichten mit diesem Medium konsumieren, haben dazu geführt, dass mehrere Webseiten miteinander konkurrieren, um die Aufmerksamkeit der Benutzer zu erregen. Dies hat dazu geführt, dass Verkaufsstellen kreative Wege geschaffen haben, um Leser auf ihre Website zu locken. Eine der am häufigsten verwendeten Techniken ist die Verwendung von Clickbait-Überschriften. Diese Überschriften wurden speziell entwickelt, um das Interesse des Lesers an dem zu wecken, was versprochen wird, wenn auf den Artikel geklickt wird. Der Artikel liefert normalerweise nicht den Inhalt, den der Leser sucht. 
 
 \section{Lösungsansatz}
-Textklassifizierung ist eine gängige Art, wie man \enquote{gute} von \enquote{bösen} Texten unterscheiden kann. Es ist allerdingt nicht praktisch ein großes Sprachmodell wie GPT-3 Browserkompatible zu machen. Erstens ist es völlig \enquote{overkill} für ein solches Problem ein Sprachmodell zu benutzen und zweitens passen diese großen Modelle nicht in den Browser, da die Ladezeit unpraktisch groß ist.
+Textklassifizierung ist eine gängige Art, wie man \enquote{gute} von \enquote{bösen} Texten unterscheiden kann. Es ist allerdingt nicht praktisch ein großes Sprachmodell wie GPT-3 Browserkompatible zu machen. Erstens ist es völlig \enquote{overkill} für ein solches Problem ein Sprachmodell zu benutzen und zweitens passen diese großen Modelle nicht in den Browser, da die Ladezeit nicht praktisch ist.
 
-Mit dieser Arbeit möchte ich ein Modell erstellen, um Clickbait Überschriften zu erkennen. Es wäre Hilfreich, wenn es ein Dienst gibt, welches eine Überschrift liest und dem Benutzer vorhersagt, ob es sich um Clickbait handelt oder nicht. So kann der Nutzer seine Zeit sparen und muss nicht auf die Seite gehen. Das Hauptprodukt ist dabei dieser Dienst, welches ganz einfach in jede HTML-Seite importiert werden kann. Dieser Dienst muss klein, schnell und gute Ergebnisse liedern.
+Mit dieser Arbeit möchte ich ein Modell erstellen, um Clickbait Überschriften zu erkennen. Es wäre Hilfreich, wenn es ein Dienst gibt, welches eine Überschrift liest und dem Benutzer vorhersagt, ob es sich um Clickbait handelt oder nicht. So kann der Nutzer seine Zeit sparen und muss nicht auf die Seite gehen. Das Hauptprodukt ist dabei dieser Dienst, welches ganz einfach in jede HTML-Seite importiert werden kann. Dieser Dienst muss klein und schnell und gute dabei möglichst Ergebnisse liefern.
 
-\section{Methodologie}
+\section{Methodik}
 
 Der erste theoretische Teil ist mathematisch/statistsch geprägt. Der zweite theoretische Teil beschäftigt sich mit der Sprache. Es wird nicht scharf zwischen den beiden Kapiteln getrennt, da diese viele Überlappungen haben werden.
 
-Ich werde ein Modell in TensorFlow.js entwickeln. Dieses Modell soll möglichst klein sein und schnell sein. Um mit TensorFlow.js arbeiten zu können muss der Text in Vektoren umgewandelt werden, \zb mit einem CNN.
+Ich werde ein Modell in TensorFlow.js entwickeln. Dieses Modell soll möglichst klein sein und schnell sein. Um mit TensorFlow.js arbeiten zu können muss der Text in Vektoren umgewandelt werden.
 
-Es gibt bereits ein Datensatz \footnote{https://www.kaggle.com/atechnohazard/clickbait-classifier-using-lstm} welches dafür verwendet werden kann. Das Kernproblem ist, dass Clickbaits mehr oder weniger ein Muster haben. Wichtig ist es, dieses zu erkennen und in das Modell einzuspeisen. Mit einem Versuchsaufbau soll das Modell getestet werden und analysiert werden. 
+Es gibt bereits ein Datensatz \footnote{https://www.kaggle.com/atechnohazard/clickbait-classifier-using-lstm} welches dafür verwendet werden kann. Clickbaits haben ein Muster haben. Das Modell soll dieses Muster erkennen und mit einer relativ hohen Wahrscheinlichkeit sagen, ob es Clickbait ist. Mit einem Versuchsaufbau soll das Modell getestet und analysiert werden. 
 
 Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines minimalistischen React Frontends angeboten werden.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=12cm]{kapitel2/beispiel.png}
-  \caption[Beispiel einer Systemarchitektur]{Beispiel einer Systemarchitektur entnommen aus \cite{cho2019shop}. Der Client bekommt beim laden der Seite, neben dem HTML, CSS und dem JavaScript, welches für das Frontend nötig ist, ein weiteres Script. Dieser Script beantwortet die Anfragen bezüglich des ML-Modells. Die Berechnung findet also im Browser, beim Client statt.}
+  \caption[Beispiel einer Systemarchitektur]{Beispiel einer Systemarchitektur entnommen aus \cite{cho2019shop}. Der Client bekommt beim laden der Seite, neben dem HTML, CSS und dem JavaScript, welches für das Frontend nötig ist, ein weiteres Script, welches die TensorFlow.js API bereitstellt. Die Berechnung findet im Browser, beim Client statt, wo auch das Modell sich befindet.}
   \label{Kap2:SystemArchitektur}
 \end{figure}
  
@@ -37,6 +37,7 @@ Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines 
 
 \begin{itemize}
   \item \cite{kaur2020detecting}
+  \item \cite{Chavan2019}
   \item \cite{vorakitphan2018clickbait}
   \item \cite{anand2017we}
   \item \cite{gairola2017neural}
@@ -97,7 +98,15 @@ Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines 
     \item Schluss
   \end{enumerate}
 
-  \item Methodologie
+  \item Aktueller Forschungsstand
+  \begin{enumerate}
+  \item Einleitung
+  \item Clickbaits und Deep Learning Ansätze
+  \item TensorFlow.js 
+  \item Worteinbettungen
+  \end{enumerate}
+
+  \item Methodik
   \begin{enumerate}
     \item Einleitung
     \item Die Systemarchitektur
@@ -105,22 +114,16 @@ Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines 
     \item Explorative Datenanalyse
     \item Datenverarbeitung und Feature Engineering
     \item Modelling
-    \item Leistungsmessungen
+    \item Das Zusammenbringen des Modells mit dem Frontend
     \item Schluss
   \end{enumerate}
 
-  \item Versuchsaufbau
+  \item Versuchsaufbau und Diskussion der Ergebnisse
   \begin{enumerate}
     \item Einleitung
     \item Anpassung der Netzwerkparameter und Hyperparameter
+    \item Leistungsmessungen
     \item Vergleich und Darstellung der Ergebnisse
-    \item Schluss
-  \end{enumerate}
-
-  \item Das Zusammenbringen des Modells mit dem Frontend
-  \begin{enumerate}
-    \item Einleitung
-    \item Entwicklungsphase
     \item Schluss
   \end{enumerate}
 

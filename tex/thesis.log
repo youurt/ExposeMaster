@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.11)  1 NOV 2020 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.11)  1 NOV 2020 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1279,7 +1279,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
-(/Users/ugurtigu/MasterThesis/tex/thesis.bbl)
+(/Users/ugurtigu/MasterThesis/tex/thesis.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                anand2017we
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                kaur2020detecting
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 80.
 Package biblatex Info: Reference segment=0 on input line 80.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 85.
@@ -1430,6 +1445,9 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
  [4 </Users/ugurtigu/MasterThesis/tex/bilder/kapitel2/beispiel.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
@@ -1440,8 +1458,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 chapter 3.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 ) (/Users/ugurtigu/MasterThesis/tex/kapitel/kapitel4.tex) [9] [10
 
 
@@ -1501,22 +1517,22 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42775 strings out of 492616
- 825933 string characters out of 6129480
- 1413316 words of memory out of 5000000
- 45957 multiletter control sequences out of 15000+600000
- 598461 words of font info for 93 fonts, out of 8000000 for 9000
+ 42789 strings out of 492616
+ 826159 string characters out of 6129480
+ 1413302 words of memory out of 5000000
+ 45968 multiletter control sequences out of 15000+600000
+ 603677 words of font info for 95 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 75i,20n,83p,9135b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,20n,77p,9135b,3006s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.14} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/ugurtigu/MasterThesis/tex/thesis.pdf (30 pages, 171095 bytes).
+Output written on /Users/ugurtigu/MasterThesis/tex/thesis.pdf (30 pages, 172434 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 358 compressed objects within 4 object streams
+ 122 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}L\IeC {\"o}sungsansatz}{3}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Methodologie}{4}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Methodik}{4}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Wissenschaftlicher Beitrag}{5}{section.2.4}% 
 \defcounter {refsection}{0}\relax 

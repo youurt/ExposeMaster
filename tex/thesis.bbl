@@ -57,8 +57,8 @@
     \endentry
     \entry{altinel2018semantic}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=b8661e806904fe03182a19c0e57cf8b3}{%
-           family={Altinel},
+        {{uniquename=0,uniquepart=base,hash=81a46641412102cedac4b6d10b960f42}{%
+           family={Alt$\backslash$inel},
            familyi={A\bibinitperiod},
            given={Berna},
            giveni={B\bibinitperiod},
@@ -73,12 +73,12 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{b098ff93816e8864f60f8e018fe219de}
-      \strng{fullhash}{b098ff93816e8864f60f8e018fe219de}
-      \strng{bibnamehash}{b098ff93816e8864f60f8e018fe219de}
-      \strng{authorbibnamehash}{b098ff93816e8864f60f8e018fe219de}
-      \strng{authornamehash}{b098ff93816e8864f60f8e018fe219de}
-      \strng{authorfullhash}{b098ff93816e8864f60f8e018fe219de}
+      \strng{namehash}{0cbbed056d9e29bb7478e8fd5d87908a}
+      \strng{fullhash}{0cbbed056d9e29bb7478e8fd5d87908a}
+      \strng{bibnamehash}{0cbbed056d9e29bb7478e8fd5d87908a}
+      \strng{authorbibnamehash}{0cbbed056d9e29bb7478e8fd5d87908a}
+      \strng{authornamehash}{0cbbed056d9e29bb7478e8fd5d87908a}
+      \strng{authorfullhash}{0cbbed056d9e29bb7478e8fd5d87908a}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
@@ -93,47 +93,68 @@
       \field{pages}{1129\bibrangedash 1153}
       \range{pages}{25}
     \endentry
-    \entry{anand2017we}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=e9c04884349329f54db6669b03ab4d4a}{%
-           family={Anand},
-           familyi={A\bibinitperiod},
-           given={Ankesh},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=12ef4925945d218592da34e0e46c4eb4}{%
-           family={Chakraborty},
+    \entry{Chavan2019}{report}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=6b3fbb34a33823eaae7902afea515f73}{%
+           family={Chavan},
            familyi={C\bibinitperiod},
-           given={Tanmoy},
-           giveni={T\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=fb037e7b379a2a88828b3b587b13a6fb}{%
-           family={Park},
+        {{uniquename=0,uniquepart=base,hash=80f9b8192fa201a9be565485bb75990b}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Harshil},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f690f975b6e549348218192289873eb}{%
+           family={Godbole},
+           familyi={G\bibinitperiod},
+           given={Diksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5254774da863d4c818a5082caa8105ef}{%
+           family={Parge},
            familyi={P\bibinitperiod},
-           given={Noseong},
-           giveni={N\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=39f70ec8cad21a6cfa465eb6b72c406c}{%
+           family={Gore},
+           familyi={G\bibinitperiod},
+           given={Deipali},
+           giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \list{organization}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{58ddb4abd3a370936750034e899e674e}
-      \strng{fullhash}{58ddb4abd3a370936750034e899e674e}
-      \strng{bibnamehash}{58ddb4abd3a370936750034e899e674e}
-      \strng{authorbibnamehash}{58ddb4abd3a370936750034e899e674e}
-      \strng{authornamehash}{58ddb4abd3a370936750034e899e674e}
-      \strng{authorfullhash}{58ddb4abd3a370936750034e899e674e}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \strng{namehash}{0545c512f877e78a2d10b42b5d419c56}
+      \strng{fullhash}{38e6d667b0906e150f16f419ca992f38}
+      \strng{bibnamehash}{0545c512f877e78a2d10b42b5d419c56}
+      \strng{authorbibnamehash}{0545c512f877e78a2d10b42b5d419c56}
+      \strng{authornamehash}{0545c512f877e78a2d10b42b5d419c56}
+      \strng{authorfullhash}{38e6d667b0906e150f16f419ca992f38}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{European Conference on Information Retrieval}
-      \field{title}{We used neural networks to detect clickbaits: You won’t believe what happened next!}
-      \field{year}{2017}
-      \field{pages}{541\bibrangedash 547}
-      \range{pages}{7}
+      \field{abstract}{Stock also known as equity or shares is a type of security that signifies ownership in a corporation and represents a claim on part of the corporations assets and earnings whereas a stock market or share market is the aggregation of buyers and sellers of stocks. Stock Exchange is defined as a process where the stock brokers can buy as well as sell the shares, bonds or other securities. Many companies regardless of their domains or sectors make their stocks or shares available through Stock Market. Such type of an exchange deals with concentration and a focused mind as the entire process is dealing with valuable assets of a person. Thus to ease the process of stock exchange many stock brokers use the act of predicting the stock prices i.e. trying to determine the whether the financial instruments of a company will go up or down in their values. Prediction is done by fundamental analysis and technical analysis and now using Machine Learning Concepts. In this project we propose a Convolutional Neural Network for predicting the stock price in order to make profit.}
+      \field{booktitle}{International Journal of Innovative Science and Research Technology}
+      \field{number}{6}
+      \field{title}{{D Convolutional Neural Network for Stock Market Prediction using Tensorflow.js}}
+      \field{type}{techreport}
+      \field{volume}{4}
+      \field{year}{2019}
+      \verb{file}
+      \verb :Users/ugurtigu/Library/Application Support/Mendeley Desktop/Downloaded/Chavan et al. - 2019 - D Convolutional Neural Network for Stock Market Prediction using Tensorflow.js.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.ijisrt.com
+      \endverb
+      \verb{url}
+      \verb www.ijisrt.com
+      \endverb
+      \keyw{Convolutional Neural Network,Deep Learning,JavaScript,Ma-chine Learning,Neural Network,Prediction/Forecasting,Stock,Stock Exchange,Stock Market,Tensorflowjs,Time Series Prediction}
     \endentry
     \entry{chawda2019novel}{inproceedings}{}
       \name{author}{4}{}{%
@@ -355,48 +376,6 @@
       \field{title}{{Fishing for clickbaits in social images and texts with linguistically-infused neural network models}}
       \field{year}{2017}
     \endentry
-    \entry{kaur2020detecting}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=6663e7e6505cdf92ba4a78e3a4496ee1}{%
-           family={Kaur},
-           familyi={K\bibinitperiod},
-           given={Sawinder},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=1,uniquepart=given,hash=a9e4af6d20a7fa8a57e537b64515ca90}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Parteek},
-           giveni={P\bibinitperiod},
-           givenun=1}}%
-        {{uniquename=0,uniquepart=base,hash=f03e6d53b7822da60db6d200acb0220e}{%
-           family={Kumaraguru},
-           familyi={K\bibinitperiod},
-           given={Ponnurangam},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{7e3c7d375c043c5c42259075467e5dfa}
-      \strng{fullhash}{7e3c7d375c043c5c42259075467e5dfa}
-      \strng{bibnamehash}{7e3c7d375c043c5c42259075467e5dfa}
-      \strng{authorbibnamehash}{7e3c7d375c043c5c42259075467e5dfa}
-      \strng{authornamehash}{7e3c7d375c043c5c42259075467e5dfa}
-      \strng{authorfullhash}{7e3c7d375c043c5c42259075467e5dfa}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Expert Systems with Applications}
-      \field{title}{Detecting clickbaits using two-phase hybrid CNN-LSTM biterm model}
-      \field{year}{2020}
-      \field{pages}{113350}
-      \range{pages}{1}
-    \endentry
     \entry{kiranyaz20191d}{article}{}
       \name{author}{6}{}{%
         {{uniquename=0,uniquepart=base,hash=88fcbfc7f3b82fa8bcc91190c133d9f0}{%
@@ -554,12 +533,12 @@
     \endentry
     \entry{kumar2018identifying}{inproceedings}{}
       \name{author}{5}{}{%
-        {{uniquename=1,uniquepart=given,hash=5f153c3ab63f5af1fb30c4d4bcdc064f}{%
+        {{uniquename=0,uniquepart=base,hash=5f153c3ab63f5af1fb30c4d4bcdc064f}{%
            family={Kumar},
            familyi={K\bibinitperiod},
            given={Vaibhav},
            giveni={V\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=3011966fb519bd6ec32378d7980f681d}{%
            family={Khattar},
            familyi={K\bibinitperiod},
@@ -984,6 +963,8 @@
       \range{pages}{12}
     \endentry
   \enddatalist
+  \missing{anand2017we}
+  \missing{kaur2020detecting}
 \endrefsection
 \endinput
 
