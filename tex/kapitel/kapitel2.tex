@@ -1,6 +1,22 @@
 \chapter{Vorstellung des Themas}
 \section{Problemdefinition}
-Das Aufkommen von Online-Nachrichtenagenturen und die Explosion der Anzahl der Benutzer, die Nachrichten mit diesem Medium konsumieren, haben dazu geführt, dass mehrere Webseiten miteinander konkurrieren, um die Aufmerksamkeit der Benutzer zu erregen. Dies hat dazu geführt, dass Verkaufsstellen kreative Wege geschaffen haben, um Leser auf ihre Website zu locken. Eine der am häufigsten verwendeten Techniken ist die Verwendung von Clickbait-Überschriften. Diese Überschriften wurden speziell entwickelt, um das Interesse des Lesers an dem zu wecken, was versprochen wird, wenn auf den Artikel geklickt wird. Der Artikel liefert normalerweise nicht den Inhalt, den der Leser sucht. 
+Das Aufkommen von Online-Nachrichtenagenturen und die Explosion der Anzahl der Benutzer, die Nachrichten mit diesem Medium konsumieren, haben dazu geführt, dass mehrere Webseiten miteinander konkurrieren, um die Aufmerksamkeit der Benutzer zu erregen. Dies hat dazu geführt, dass Verkaufsstellen kreative Wege geschaffen haben, um Leser auf ihre Website zu locken. Eine der am häufigsten verwendeten Techniken ist die Verwendung von Clickbait-Überschriften. Diese Überschriften wurden speziell dafür entwickelt, um das Interesse des Lesers an dem zu wecken, was versprochen wird. Wenn auf den Artikel geklickt wird jedoch, liefert dieser Artikel normalerweise nicht den Inhalt, den der Leser Ursprüngich gesucht hat. In Abbildung \ref{Kap2:ClickBait} und \ref{Kap2:News} wird der Unterschied zwischen Clickbaits und \enquote{normalen} Nachrichten aufgezeigt.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=12cm]{kapitel2/clickbait.png}
+  \caption[Beispiel von Clickbait]{Beispiel von Clickbait\footnote{https://github.com/MichaelGoodale/Clickbait-Classifier}}
+  \label{Kap2:ClickBait}
+\end{figure}
+
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=12cm]{kapitel2/news.png}
+  \caption[Beispiel von \enquote{normalen} Nachrichten]{Beispiel von \enquote{normalen} Nachrichten\footnote{https://github.com/MichaelGoodale/Clickbait-Classifier}}
+  \label{Kap2:News}
+\end{figure}
+
 
 \section{Lösungsansatz}
 Textklassifizierung ist eine gängige Art, wie man \enquote{gute} von \enquote{bösen} Texten unterscheiden kann. Es ist allerdingt nicht praktisch ein großes Sprachmodell wie GPT-3 Browserkompatible zu machen. Erstens ist es völlig \enquote{overkill} für ein solches Problem ein Sprachmodell zu benutzen und zweitens passen diese großen Modelle nicht in den Browser, da die Ladezeit nicht praktisch ist.
@@ -9,13 +25,7 @@ Mit dieser Arbeit möchte ich ein Modell erstellen, um Clickbait Überschriften 
 
 \section{Methodik}
 
-Der erste theoretische Teil ist mathematisch/statistsch geprägt. Der zweite theoretische Teil beschäftigt sich mit der Sprache. Es wird nicht scharf zwischen den beiden Kapiteln getrennt, da diese viele Überlappungen haben werden.
-
-Ich werde ein Modell in TensorFlow.js entwickeln. Dieses Modell soll möglichst klein sein und schnell sein. Um mit TensorFlow.js arbeiten zu können muss der Text in Vektoren umgewandelt werden.
-
-Es gibt bereits ein Datensatz \footnote{https://www.kaggle.com/atechnohazard/clickbait-classifier-using-lstm} welches dafür verwendet werden kann. Clickbaits haben ein Muster haben. Das Modell soll dieses Muster erkennen und mit einer relativ hohen Wahrscheinlichkeit sagen, ob es Clickbait ist. Mit einem Versuchsaufbau soll das Modell getestet und analysiert werden. 
-
-Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines minimalistischen React Frontends angeboten werden.
+Der erste theoretische Teil ist mathematisch/statistsch geprägt. Der zweite theoretische Teil beschäftigt sich mit der Sprache. Es wird nicht scharf zwischen den beiden Kapiteln getrennt, da diese viele Überlappungen haben werden. Ich werde ein Modell in TensorFlow.js entwickeln. Dieses Modell soll möglichst klein sein und schnell sein. Um mit TensorFlow.js arbeiten zu können muss der Text in Vektoren umgewandelt werden. Es gibt bereits ein Datensatz \footnote{https://www.kaggle.com/atechnohazard/clickbait-classifier-using-lstm} welches dafür verwendet werden kann. Clickbaits haben ein Muster, das Modell soll dieses Muster erkennen und mit einer relativ hohen Wahrscheinlichkeit sagen, ob es Clickbait ist. Mit einem Versuchsaufbau soll das Modell getestet und analysiert werden. Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines minimalistischen React Frontends angeboten werden.
 
 \begin{figure}[ht]
   \centering
@@ -36,10 +46,10 @@ Schließlich soll das Modell in die Browser-Umgebung gebracht und mittels eines 
 \section{Einstiegsliteratur}
 
 \begin{itemize}
-  \item \cite{kaur2020detecting}
+  \item \cite{Kaur2020a}
   \item \cite{Chavan2019}
   \item \cite{vorakitphan2018clickbait}
-  \item \cite{anand2017we}
+  \item \cite{Anand2017}
   \item \cite{gairola2017neural}
   \item \cite{kumar2018identifying}
   \item \cite{glenski2017fishing}

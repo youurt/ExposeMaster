@@ -1,19 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'thesis.blg'
-[63] biber-darwin:315> INFO - === Sun Nov  1, 2020, 16:27:34
-[95] Biber.pm:371> INFO - Reading 'thesis.bcf'
-[224] Biber.pm:889> INFO - Found 25 citekeys in bib section 0
-[242] Biber.pm:4093> INFO - Processing section 0
-[253] Biber.pm:4254> INFO - Looking for bibtex format file 'library.bib' for section 0
-[256] bibtex.pm:1523> INFO - LaTeX decoding ...
-[307] bibtex.pm:1340> INFO - Found BibTeX data source 'library.bib'
-[450] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/s7/6jx2525j5wbdd8g9_b06hy100000gn/T/1Tplq85i4F/library.bib_35420.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[450] Utils.pm:193> WARN - I didn't find a database entry for 'kaur2020detecting' (section 0)
-[451] Utils.pm:193> WARN - I didn't find a database entry for 'anand2017we' (section 0)
-[492] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[492] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[492] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de_DE'
-[492] Biber.pm:3927> INFO - No sort tailoring available for locale 'de_DE'
-[524] bbl.pm:636> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[544] bbl.pm:739> INFO - Output to thesis.bbl
-[544] Biber.pm:110> INFO - WARNINGS: 3
+[44] biber-darwin:315> INFO - === Sun Nov  1, 2020, 16:49:52
+[72] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[163] Biber.pm:889> INFO - Found 25 citekeys in bib section 0
+[176] Biber.pm:4093> INFO - Processing section 0
+[197] Biber.pm:4254> INFO - Looking for bibtex format file 'library.bib' for section 0
+[199] bibtex.pm:1523> INFO - LaTeX decoding ...
+[250] bibtex.pm:1340> INFO - Found BibTeX data source 'library.bib'
+[267] Utils.pm:193> WARN - month field 'aug' in entry 'Kaur2020a' is not an integer - this will probably not sort properly.
+[420] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/s7/6jx2525j5wbdd8g9_b06hy100000gn/T/MK4dtJyrDY/library.bib_36003.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[469] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[469] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[469] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de_DE'
+[469] Biber.pm:3927> INFO - No sort tailoring available for locale 'de_DE'
+[506] bbl.pm:636> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[528] bbl.pm:739> INFO - Output to thesis.bbl
+[528] Biber.pm:110> INFO - WARNINGS: 2

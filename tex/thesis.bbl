@@ -93,6 +93,66 @@
       \field{pages}{1129\bibrangedash 1153}
       \range{pages}{25}
     \endentry
+    \entry{Anand2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e9c04884349329f54db6669b03ab4d4a}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Ankesh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=12ef4925945d218592da34e0e46c4eb4}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Tanmoy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb037e7b379a2a88828b3b587b13a6fb}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Noseong},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{58ddb4abd3a370936750034e899e674e}
+      \strng{fullhash}{58ddb4abd3a370936750034e899e674e}
+      \strng{bibnamehash}{58ddb4abd3a370936750034e899e674e}
+      \strng{authorbibnamehash}{58ddb4abd3a370936750034e899e674e}
+      \strng{authornamehash}{58ddb4abd3a370936750034e899e674e}
+      \strng{authorfullhash}{58ddb4abd3a370936750034e899e674e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Online content publishers often use catchy headlines for their articles in order to attract users to their websites. These headlines, popularly known as clickbaits, exploit a user's curiosity gap and lure them to click on links that often disappoint them. Existing methods for automatically detecting clickbaits rely on heavy feature engineering and domain knowledge. Here, we introduce a neural network architecture based on Recurrent Neural Networks for detecting clickbaits. Our model relies on distributed word representations learned from a large unannotated corpora, and character embeddings learned via Convolutional Neural Networks. Experimental results on a dataset of news headlines show that our model outperforms existing techniques for clickbait detection with an accuracy of 0.98 with F1-score of 0.98 and ROC-AUC of 0.99.}
+      \field{booktitle}{Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9783319566078}
+      \field{issn}{16113349}
+      \field{title}{{We used neural networks to detect clickbaits: You won't believe what happened next!}}
+      \field{volume}{10193 LNCS}
+      \field{year}{2017}
+      \field{pages}{541\bibrangedash 547}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/978-3-319-56608-5_46
+      \endverb
+      \verb{eprint}
+      \verb 1612.01340
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-319-56608-5{\_}46
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-319-56608-5%7B%5C_%7D46
+      \endverb
+      \keyw{Clickbait detection,Deep learning,Neural networks}
+    \endentry
     \entry{Chavan2019}{report}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=6b3fbb34a33823eaae7902afea515f73}{%
@@ -376,6 +436,56 @@
       \field{title}{{Fishing for clickbaits in social images and texts with linguistically-infused neural network models}}
       \field{year}{2017}
     \endentry
+    \entry{Kaur2020a}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=6663e7e6505cdf92ba4a78e3a4496ee1}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Sawinder},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=a9e4af6d20a7fa8a57e537b64515ca90}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Parteek},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=f03e6d53b7822da60db6d200acb0220e}{%
+           family={Kumaraguru},
+           familyi={K\bibinitperiod},
+           given={Ponnurangam},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{7e3c7d375c043c5c42259075467e5dfa}
+      \strng{fullhash}{7e3c7d375c043c5c42259075467e5dfa}
+      \strng{bibnamehash}{7e3c7d375c043c5c42259075467e5dfa}
+      \strng{authorbibnamehash}{7e3c7d375c043c5c42259075467e5dfa}
+      \strng{authornamehash}{7e3c7d375c043c5c42259075467e5dfa}
+      \strng{authorfullhash}{7e3c7d375c043c5c42259075467e5dfa}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Clickbait indicates the type of content with an intending goal to attract the attention of readers. It has grown to become a nuisance to social media users. The purpose of clickbait is to bring an appealing link in front of users. Clickbaits seen in the form of headlines influence people to get attracted and curious to read the inside content. The content seen in the form of text on clickbait posts is very short to identify its features as clickbait. In this paper, a novel approach (two-phase hybrid CNN-LSTM Biterm model) has been proposed for modeling short topic content. The hybrid CNN-LSTM model when implemented with pre-trained GloVe embedding yields the best results based on accuracy, recall, precision, and F1-score performance metrics. The proposed model achieves 91.24{\%}, 95.64{\%}, 95.87{\%} precision values for Dataset 1, Dataset 2 and Dataset 3, respectively. Eight types of clickbait such as Reasoning, Number, Reaction, Revealing, Shocking/Unbelievable, Hypothesis/Guess, Questionable, Forward referencing are classified in this work using the Biterm Topic Model (BTM). It has been shown that the clickbaits such as Shocking/Unbelievable, Hypothesis/Guess and Reaction are the highest in numbers among rest of the clickbait headlines published online. Also, a ground dataset of non-textual (image-based) data using multiple social media platforms has been created in this paper. The textual information has been retrieved from the images with the help of OCR tool. A comparative study is performed to show the effectiveness of our proposed model which helps to identify the various categories of clickbait headlines that are spread on social media platforms.}
+      \field{issn}{09574174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{8}
+      \field{title}{{Detecting clickbaits using two-phase hybrid CNN-LSTM biterm model}}
+      \field{volume}{151}
+      \field{year}{2020}
+      \field{pages}{113350}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2020.113350
+      \endverb
+      \keyw{Classifier,Clickbait,Features,News,Social media}
+    \endentry
     \entry{kiranyaz20191d}{article}{}
       \name{author}{6}{}{%
         {{uniquename=0,uniquepart=base,hash=88fcbfc7f3b82fa8bcc91190c133d9f0}{%
@@ -533,12 +643,12 @@
     \endentry
     \entry{kumar2018identifying}{inproceedings}{}
       \name{author}{5}{}{%
-        {{uniquename=0,uniquepart=base,hash=5f153c3ab63f5af1fb30c4d4bcdc064f}{%
+        {{uniquename=1,uniquepart=given,hash=5f153c3ab63f5af1fb30c4d4bcdc064f}{%
            family={Kumar},
            familyi={K\bibinitperiod},
            given={Vaibhav},
            giveni={V\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{uniquename=0,uniquepart=base,hash=3011966fb519bd6ec32378d7980f681d}{%
            family={Khattar},
            familyi={K\bibinitperiod},
@@ -963,8 +1073,6 @@
       \range{pages}{12}
     \endentry
   \enddatalist
-  \missing{anand2017we}
-  \missing{kaur2020detecting}
 \endrefsection
 \endinput
 
