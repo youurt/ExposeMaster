@@ -1993,31 +1993,35 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">literatur.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">library.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Kornmeier2011</bcf:citekey>
-    <bcf:citekey order="2">Kramer2009</bcf:citekey>
-    <bcf:citekey order="3">Kornmeier2011</bcf:citekey>
-    <bcf:citekey order="4">Kornmeier2011</bcf:citekey>
-    <bcf:citekey order="5">Gao2017</bcf:citekey>
-    <bcf:citekey order="6">Willberg1999</bcf:citekey>
-    <bcf:citekey order="7">Willberg1999</bcf:citekey>
-    <bcf:citekey order="8">Willberg1999</bcf:citekey>
-    <bcf:citekey order="9">Willberg1999</bcf:citekey>
-    <bcf:citekey order="10">Willberg1999</bcf:citekey>
-    <bcf:citekey order="11">Willberg1999</bcf:citekey>
-    <bcf:citekey order="12">Willberg1999</bcf:citekey>
-    <bcf:citekey order="13">Willberg1999</bcf:citekey>
-    <bcf:citekey order="14">Weber2006</bcf:citekey>
-    <bcf:citekey order="15">Forssman2002</bcf:citekey>
-    <bcf:citekey order="16">Willberg1999</bcf:citekey>
-    <bcf:citekey order="17">Wikipedia_HarveyBalls</bcf:citekey>
-    <bcf:citekey order="18">Volere</bcf:citekey>
-    <bcf:citekey order="19">Barbacci2003</bcf:citekey>
-    <bcf:citekey order="20">ISO25010</bcf:citekey>
-    <bcf:citekey order="21">Bass2003</bcf:citekey>
-    <bcf:citekey order="22">Bass2003</bcf:citekey>
+    <bcf:citekey order="1">cho2019shop</bcf:citekey>
+    <bcf:citekey order="2">cho2019shop</bcf:citekey>
+    <bcf:citekey order="3">kaur2020detecting</bcf:citekey>
+    <bcf:citekey order="4">vorakitphan2018clickbait</bcf:citekey>
+    <bcf:citekey order="5">anand2017we</bcf:citekey>
+    <bcf:citekey order="6">gairola2017neural</bcf:citekey>
+    <bcf:citekey order="7">kumar2018identifying</bcf:citekey>
+    <bcf:citekey order="8">glenski2017fishing</bcf:citekey>
+    <bcf:citekey order="9">chawda2019novel</bcf:citekey>
+    <bcf:citekey order="10">seopredicting</bcf:citekey>
+    <bcf:citekey order="11">cho2019shop</bcf:citekey>
+    <bcf:citekey order="12">roberts2018magenta</bcf:citekey>
+    <bcf:citekey order="13">aggarwal2012survey</bcf:citekey>
+    <bcf:citekey order="14">kowsari2019text</bcf:citekey>
+    <bcf:citekey order="15">korde2012text</bcf:citekey>
+    <bcf:citekey order="16">altinel2018semantic</bcf:citekey>
+    <bcf:citekey order="17">nordberg2020crucial</bcf:citekey>
+    <bcf:citekey order="18">raamkumar2020use</bcf:citekey>
+    <bcf:citekey order="19">rivera2020identifying</bcf:citekey>
+    <bcf:citekey order="20">nguyen2020real</bcf:citekey>
+    <bcf:citekey order="21">zhang2015character</bcf:citekey>
+    <bcf:citekey order="22">kiranyaz20191d</bcf:citekey>
+    <bcf:citekey order="23">severyn2015unitn</bcf:citekey>
+    <bcf:citekey order="24">severyn2015twitter</bcf:citekey>
+    <bcf:citekey order="25">zhao2019speech</bcf:citekey>
+    <bcf:citekey order="26">eren2019generic</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
